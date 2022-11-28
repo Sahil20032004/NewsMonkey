@@ -1,0 +1,13 @@
+.containes{
+    display: grid;
+    place-items: center;
+    margin: -100px auto;
+    width: 90%;
+    padding: 10px;
+}
+.flex_container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

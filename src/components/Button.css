@@ -1,0 +1,31 @@
+.flex_button{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 35px;
+}
+button{
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+   
+}
+button:hover{
+    cursor: pointer;
+}
+button:disabled{
+    background-color: lightslategray;
+    border: 1px solid black;
+}
+button:disabled:hover{
+    cursor:not-allowed;
+}
+.page_number{
+    border-radius: 5px;
+    background-color: rgba(0,0,0, 0.1);
+    color: black;
+    flex: 0.05;
+    text-align: center;
+    font-weight: bolder;
+}
